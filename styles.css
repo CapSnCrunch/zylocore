@@ -594,16 +594,16 @@ section {
     display: block;
     font-size: 2.5rem;
     font-weight: 900;
-    color: var(--primary-color);
+    color: #0066cc;
     font-family: 'Orbitron', monospace;
-    text-shadow: 0 0 10px rgba(255, 107, 53, 0.5);
+    text-shadow: 0 0 10px rgba(0, 102, 204, 0.5);
     animation: statPulse 3s ease-in-out infinite;
     position: relative;
     z-index: 1;
 }
 
 .stat-label {
-    color: var(--text-secondary);
+    color: #4da6ff;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 0.9rem;
@@ -613,10 +613,10 @@ section {
 
 @keyframes statPulse {
     0%, 100% {
-        text-shadow: 0 0 10px rgba(255, 107, 53, 0.5);
+        text-shadow: 0 0 10px rgba(0, 102, 204, 0.5);
     }
     50% {
-        text-shadow: 0 0 20px rgba(255, 107, 53, 0.8);
+        text-shadow: 0 0 20px rgba(0, 102, 204, 0.8);
     }
 }
 
@@ -1423,7 +1423,7 @@ section {
 
 .footer-links {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 }
 
